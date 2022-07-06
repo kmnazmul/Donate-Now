@@ -119,3 +119,82 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0,0.15);
 }
 
+/* Other amount _ part */
+.other-amount{
+outline:none;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+display: flex;
+text-align: center;
+justify-content: center;
+margin-top:50px;
+
+
+
+
+
+
+}
+
+.other-amount .amountpay{
+  width:650px;
+  background:#FAFAFA;
+  padding:30px;
+  box-shadow: 0px 0xp 10px rgba(0,0,0,0.1);
+
+ 
+
+}
+
+.other-amount .input-data{
+    height: 40px;
+    width:100%;
+    position:relative;
+
+}
+
+
+
+.other-amount .input-data input{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height:100%;
+    width:100%;
+    border: none;'
+    font-size: 30px !important;
+    border-bottom: 3px solid #DADADA;
+
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size:15px;
+    color:#4158d0;
+}
+
+
+
+.other-amount .input-data label{
+    position: absolute;
+    bottom:10px;
+    left:250px;
+    color:gray;
+    pointer-events: none;
+    transition: .4s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
