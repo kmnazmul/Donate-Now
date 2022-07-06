@@ -133,6 +133,7 @@
     text-decoration: none;
     margin-top: 39px;
     border-radius: 5px;
+    border: none;
 }
 /* other amount part end css */
 /*  donate plan start css */
@@ -295,7 +296,8 @@ i {
     color: #FFFFFF;
     background: #FF5959;
     text-decoration: none;
-    padding: 9.5px;
+    padding: 10.5px;
+    border:none;
 }
 /*  Get My Updates-part end css  */
 /*       behumble footer-part start */
