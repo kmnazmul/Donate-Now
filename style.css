@@ -1,412 +1,322 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
-
-
-
-
 /*  Donate bannar */
-
-#donate-bannar{
+#donate-bannar {
     background-image: url(images/donation5.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
 }
-
-#donate-bannar .overlay{
-    width:100%;
+#donate-bannar .overlay {
+    width: 100%;
     height: 100%;
-    background:rgba(0, 0, 0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
-#donate-bannar .overlay .text{
+#donate-bannar .overlay .text {
     text-align: center;
 }
-
-#donate-bannar .overlay .text h1{
+#donate-bannar .overlay .text h1 {
     font-family: 'Open Sans', sans-serif;
-    color:white;
-    font-size:65px;
+    color: white;
+    font-size: 65px;
     font-weight: 700;
-    padding-top: 100px;;
+    padding-top: 100px;
 }
-#donate-bannar .overlay .text p{
+#donate-bannar .overlay .text p {
     font-family: 'Roboto', sans-serif;
-    color:white;
+    color: white;
     font-size: 18px;
     font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
-#donate-bannar .overlay .text a{
+#donate-bannar .overlay .text a {
     font-family: 'Roboto', sans-serif;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 400;
-    color:white;
-    background:tomato;
-    padding:10px 20px;
+    color: white;
+    background: tomato;
+    padding: 10px 20px;
     text-decoration: none;
-    line-height: 50px;
 }
-
-
 /*     donate - today          */
-
-#Donate-today{
-
+#Donate-today .text {
+    text-align: center;
 }
-#Donate-today .text{
-   text-align: center;
-
-}
-
-#Donate-today .text h1{
+#Donate-today .text h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     font-weight: bold;
-    color:black;
-
+    color: black;
+    padding-top: 130px;
+    padding-bottom: 20px;
 }
-
-#Donate-today .text p{
+#Donate-today .text p {
     font-family: 'Roboto', sans-serif;
-    color:#707070;;
+    color: #707070;
+    ;
     font-size: 18px;
     font-weight: 400;
 }
-
-
-#Donate-today .cash-pay{
+#Donate-today .cash-pay {
     display: flex;
-    margin-top:50px;
-    margin-left: 150px;;
+    margin-top: 50px;
+    margin-left: 150px;
 }
-
-
-#Donate-today .cash-pay .amount1{
-    width:8%;
+#Donate-today .cash-pay .amount1 {
+    width: 8%;
     background: #FAFAFA;
-    padding: 50px;;
-    margin-left: 30px;;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0,0.15);
+    padding: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
-#Donate-today .cash-pay .amount2{
-    width:8%;
+#Donate-today .cash-pay .amount2 {
+    width: 8%;
     background: #FFEEEE;
     border: 4px solid#FF5959;
-    padding: 50px;;
-    margin-left: 30px;;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0,0.15);
+    padding: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
-#Donate-today .cash-pay .amount3{
-    width:8%;
+
+#Donate-today .cash-pay .amount3 {
+    width: 8%;
     background: #FAFAFA;
-    padding: 50px;;
-    margin-left: 30px;;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0,0.15);
+    padding: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
-#Donate-today .cash-pay .amount4{
-    width:8%;
+#Donate-today .cash-pay .amount4 {
+    width: 8%;
     background: #FAFAFA;
-    padding: 50px;;
-    margin-left: 30px;;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0,0.15);
+    padding: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
-#Donate-today .cash-pay .amount5{
-    width:8%;
+#Donate-today .cash-pay .amount5 {
+    width: 8%;
     background: #FAFAFA;
-    padding: 50px;;
-    margin-left: 30px;;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0,0.15);
+    padding: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
 /* ===========     other amount start  */
-
-.other-amount{
-margin-top:50px;
+.other-amount {
+    margin-top: 50px;
 }
-
-
-
-.other-amount .amountpay  input{
-     font-family: 'Open Sans', sans-serif;
+.other-amount .amountpay .amout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.other-amount .amountpay input {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-     width:55%;
-     height:50px;
+    width: 55%;
+    height: 50px;
     border: none;
-    color:#B3B3B3;
-    font-size: 28px ;
+    color: #B3B3B3;
+    font-size: 28px;
     border-bottom: 3px solid #DADADA;
-    text-align:center;
-    
+    text-align: center;
 }
-
-
-.other-amount .amountpay a{
+.other-amount .amountpay .do {
     font-family: 'Roboto', sans-serif;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 400;
-    color:white;
-    background:tomato;
-    padding:10px 20px;
+    color: white;
+    background: tomato;
+    padding: 10px 20px;
     text-decoration: none;
-    line-height: 80px;
+    margin-top: 39px;
     border-radius: 5px;
 }
-
-
 /* other amount part end css */
-
-
-
 /*  donate plan start css */
-
-#donate-plan{
-margin-top:50px;
+#donate-plan {
+    padding: 130px;
 }
-#donate-plan .text{
-text-align: center;;
+#donate-plan .text {
+    text-align: center;
 }
-#donate-plan .text h1{
+#donate-plan .text h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 45px;
     color: #121212;
+    padding-bottom: 20px;
 }
-
-#donate-plan .text p{
+#donate-plan .text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 34px;
+    line-height: 28px;
     color: #707070;
+    padding-bottom: 50px;
 }
-
-
-#donate-plan .plan-part{
+#donate-plan .plan-part {
     display: flex;
 }
-
-
-#donate-plan .plan-part .plan-item1{
-    width:25%;
-    padding:40px;
+#donate-plan .plan-part .plan-item1 {
+    width: 25%;
+    padding: 40px;
     background: rgba(79, 157, 166, 0.1);
-    margin-left: 80px;;
-
+    margin-left: 80px;
 }
-
-
-
-
-
-
-#donate-plan .plan-part .plan-item2{
-    width:25%;
-    padding:40px 20px;
+#donate-plan .plan-part .plan-item2 {
+    width: 25%;
+    padding: 40px 20px;
     background: rgba(255, 89, 89, 0.1);
     margin-left: 20px;
 }
-
-#donate-plan .plan-part .plan-item3{
-    width:25%;
-    padding:40px 20px;
-    background: rgba(255, 255, 0,0.1);
+#donate-plan .plan-part .plan-item3 {
+    width: 25%;
+    padding: 40px 20px;
+    background: rgba(255, 255, 0, 0.1);
     margin-left: 20px;
 }
- i{
-    width:50px;
+i {
+    width: 50px;
     height: 50px;
-    font-size:50px;
+    font-size: 50px;
     line-height: 50px;
-    color:#000;
+    color: #000;
 }
-
-
-#donate-plan .plan-part h3{
+#donate-plan .plan-part h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #121212;
+    padding-top: 31.73px;
+    padding-bottom: 13px;
 }
-
-
-#donate-plan .plan-part p{
+#donate-plan .plan-part p {
     font-family: 'Roboto', sans-serif;
-    color:#707070;;
-    font-size: 15px;
+    color: #707070;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
-
 /* donate plan end css  */
-
-
 /*    urgent relief part start css */
-#urgent-relief{
-  margin-top: 100px;
+#urgent-relief .relif-text {
+    text-align: center;
 }
-
-#urgent-relief .relif-text{
-text-align: center;
-}
-#urgent-relief .relif-text h1{
+#urgent-relief .relif-text h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 34px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
-
-#urgent-relief .relif-text p{
+#urgent-relief .relif-text p {
     font-family: 'Roboto', sans-serif;
-    color:#707070;;
+    color: #707070;
     font-size: 18px;
-    line-height: 28px;;
+    line-height: 28px;
 }
-
-
-#urgent-relief .reli-fimg{
+#urgent-relief .reli-fimg {
     display: flex;
-    margin-top:50px;
+    margin-top: 50px;
 }
-
-
-#urgent-relief .reli-fimg .img1{
-   width:45%;
-   margin-left: 95px;
+#urgent-relief .reli-fimg .img1 {
+    width: 45%;
+    margin-left: 95px;
 }
-#urgent-relief .reli-fimg .img1 img{
-    width:90%;
-    height:600px;
-    
- }
-
-
-#urgent-relief .reli-fimg .img2{
-    width:45%;
+#urgent-relief .reli-fimg .img1 img {
+    width: 90%;
+    height: 600px;
 }
-
-
-#urgent-relief .reli-fimg .img2 img{
-    width:90%;
-    height:600px;
-    
- }
-
-
+#urgent-relief .reli-fimg .img2 {
+    width: 45%;
+}
+#urgent-relief .reli-fimg .img2 img {
+    width: 90%;
+    height: 600px;
+}
 /*    urgent relief part end css */
-
-
 /* Get My Updates-part start css */
-
-#get-my-update{
-margin-top:50px;
+#get-my-update {
+    padding-top: 130px;
 }
-#get-my-update .text{
+#get-my-update .text {
     text-align: center;
 }
-#get-my-update .text h1{
+#get-my-update .text h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     font-weight: 700;
-    color:#121212;
+    color: #121212;
+    padding-bottom: 20px;
 }
-
-
-#get-my-update .text p{
+#get-my-update .text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-    color:#707070
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    padding-bottom: 50px;
 }
 #get-my-update .form {
-	margin-top: 80px;
-	background: #FFF4D6;
-	width: 784px;
-	height: 223px;
-	position: relative;
-	margin-left: 390px;
-	border-radius: 5px;
+    background: #FFF4D6;
+    width: 784px;
+    height: 223px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-#get-my-update .form form{
-  text-align: center;
-   
+#get-my-update .form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 #get-my-update .form input {
-	margin-top: 104px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	color: #AA9F9F;
-	height: 30px;
-	border: none;
-	background: #D9D9D9;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	margin-right: 139px;
-	border-radius: 6px 0px 0px 6px;
-	padding-right: 92px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #AA9F9F;
+    height: 34px;
+    border: none;
+    background: #D9D9D9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 6px 0px 0px 6px;
+    padding-right: 92px;
 }
-
-
-#get-my-update .form a {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	font-weight: 500;
-	color: #FFFFFF;
-	background: #FF5959;
-	text-decoration: none;
-	padding: 9.5px;
-	position: absolute;
-	top: 104px;
-	right: 224px;
-	border-radius: 0px 6px 6px 0px;
+#get-my-update .form button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #FF5959;
+    text-decoration: none;
+    padding: 9.5px;
 }
-
-
-
-
 /*  Get My Updates-part end css  */
-
 /*       behumble footer-part start */
-.be-humble{
-    width:100%;
-    height:177px;
-    background:#0B0D17;
+.be-humble {
+    width: 100%;
+    height: 177px;
+    background: #0B0D17;
     text-align: center;
-    margin-top:134px;
+    margin-top: 134px;
 }
-
 .be-humble h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 36px;
-	line-height: 125px;
-	font-weight: 700;
-	color: #FF5959;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 125px;
+    font-weight: 700;
+    color: #FF5959;
 }
-
-
-.be-humble P{
+.be-humble P {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-font-size: 14px;
-
-color:#D9DBE1;
-
+    font-size: 14px;
+    color: #D9DBE1;
 }
-
-
-
-
-
 /*      be humble footer part end */
-
-
-
-
-
